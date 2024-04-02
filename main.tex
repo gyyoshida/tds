@@ -56,39 +56,6 @@
 % alterando o aspecto da cor azul
 \definecolor{blue}{RGB}{41,5,195}
 
-% informações do PDF
-\makeatletter
-\hypersetup{
-     	%pagebackref=true,
-		pdftitle={\@title}, 
-		pdfauthor={\@author},
-    	pdfsubject={Modelo de artigo científico com abnTeX2},
-	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{atigo científico}, 
-		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
-    	filecolor=magenta,      		% color of file links
-		urlcolor=blue,
-		bookmarksdepth=4
-		}
-\makeatother
-% --- 
-
-% ---
-% compila o indice
-% ---
-\makeindex
-% ---
-
-% ---
-% Altera as margens padrões
-% ---
-\setlrmarginsandblock{3cm}{3cm}{*} %{ESQUERDA}{DIREITA}
-\setulmarginsandblock{3.5cm}{2.5cm}{*} %{SUPERIOR}{INFERIOR}
-\checkandfixthelayout
-% ---
-
 % --- 
 % Espaçamentos entre linhas e parágrafos 
 % --- 
@@ -107,7 +74,6 @@
   
   % Seleciona o idioma do documento (conforme pacotes do babel)
 %\selectlanguage{english}
-\selectlanguage {brazil}
 
 
 % Retira espaço extra obsoleto entre as frases.
